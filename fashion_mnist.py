@@ -20,7 +20,7 @@ the word-level and sentence-level structure of the context.
     Achieved state-of-the-art results on
     skeleton based action recognition with 3 levels
     of bidirectional HRNN combined with fully connected layers.
-In the below MNIST example the first LSTM layer first encodes every
+In the below Fashion-MNIST example the first LSTM layer first encodes every
 column of pixels of shape (28, 1) to a column vector of shape (128,).
 The second LSTM layer encodes then these 28 column vectors of shape (28, 128)
 to a image vector representing the whole image.
